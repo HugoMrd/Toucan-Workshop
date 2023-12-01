@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import  BoxContainer from "./components/boxlist"
+import  BoxContainer from "./components/BoxContainer"
 import logo from "./assets/toucantoco.png";
 import './App.css';
-import "./styles.css";
 
 function App() {
   const [search, setSearch] = useState('');

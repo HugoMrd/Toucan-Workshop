@@ -1,4 +1,5 @@
-import { StarRating } from './rating_stars';
+import { StarRating } from './StarRating';
+import "./css/Card-style.css"
 
 interface CardProps {
   title: string;

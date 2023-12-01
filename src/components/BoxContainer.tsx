@@ -1,8 +1,8 @@
 import React from 'react';
 import TextField from "@mui/material/TextField";
-import { Card } from "./card";
+import { Card } from "./Card";
 import boxes from "../db.json";
-import "../styles.css";
+import "./css/BoxContainer-style.css";
 
 interface BoxContainerProps {
   search: string;

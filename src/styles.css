@@ -1,0 +1,64 @@
+.background {
+  background: linear-gradient(to bottom, #96CCBF, #FFFFFF);
+  min-height: 100vh;
+}
+
+.logo-image {
+  height: 15%;
+  width: 15%;
+  margin-top: 2%;
+}
+
+.search-input {
+  max-width: 50%;
+  width: 100%;
+  background: #5ca591;
+  position: absolute;
+  transform: translate(18%, 550%);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4%;
+  max-height: 52vh;
+  max-width: 50%;
+  margin-left: 25.5%;
+  margin-top: 9%;
+  overflow-y: auto;
+}
+
+.cards {
+  width: 220px;
+  height: 180px;
+  background-color: #96CCBF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.star-filled {
+  color: gold;
+  font-size: 30px;
+}
+
+.star-empty {
+  color: #ccc;
+  font-size: 30px;
+}
+
+.rating {
+  margin-top: auto;
+}
+.book-title {
+  margin-top: 8px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 0;
+}

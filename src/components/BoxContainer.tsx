@@ -15,7 +15,7 @@ function BoxContainer({ search, setSearch}: BoxContainerProps) {
   return (
     <>
       <TextField
-        label="Search by authors name"
+        label="Search by book title name"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         className="search-input"
